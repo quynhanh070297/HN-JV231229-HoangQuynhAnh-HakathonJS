@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/admin.css">
+</head>
+
+<body>
+    <header>
+        <div class="hello">
+            <a href="#" class="logo"><img src="../Image/Logo/logo 1.png" alt="#" />
+                <h4>Hello Quynh Anh</h4>
+            </a>
+            <a href="" style="margin-top: 10px;" >Logout</a>
+        </div>
+    </header>
+    <div class="container-menu">
+        <div class="menu-bar">
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar">
+                <p>SETUP/EDIT</p>
+                <li><a href="#about">Edit About Me</a></li>
+                <li><a onclick="serv()">Edit Services </a></li>
+                <li><a onclick="renderMyPortfolio()">Edit My Portfolio</a></li>
+                <li><a href="#contact">Edit Contact</a></li>
+                <p>ACCOUNT SETTINGS</p>
+
+                <li><a href="./loginAdmin.html">Edit Profile</a></li>
+            </ul>
+        </div>
+        <div id="maints">
+        </div>
+        <!-- <div>
+            <table border="1">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>Tên công nghệ</th>
+                    <th>Link Ảnh</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="body-table"></tbody>
+              </table>
+        </div> -->
+    </div>
+   
+
+    <script src="../JS/admin.js"></script>
+</body>
+
+</html>

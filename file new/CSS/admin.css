@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-size: 30px;
+  }
+  body {
+    color: bisque;
+    background: url(../Image/BgAdmin/beautiful-tulip-flowers-with-copy-space-background-top-view-space-for-text-free-photo.jpg
+    ) no-repeat;
+    background-size: cover;
+    background-position-x: right ;
+    height: 100vh;
+    opacity: 0.9;
+  } 
+  header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    align-items: center;
+    background: transparent;
+    backdrop-filter:blur(100px);
+    padding: 10px 0 0 20px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4 ease;
+    background-color: rgb(228, 196, 196);
+  }
+  .menu-bar {
+    padding-top: 100px;
+    height: 100vh;
+    width: 30vh;
+   background-color: rgb(228, 196, 196);
+
+
+  
+  }
+  .container-menu {
+    display: grid;
+    grid-template-columns: auto,auto;
+  }
+  .hello {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    background:  transparent;
+  }
+  .logo {
+    display: flex;
+  }
+  h4 {
+    margin: 2% 2% 0 2% ;
+    width: 30vh;
+  }
+ .navbar li a {
+    padding: 20px 0 20px;
+  }
+  li {
+    margin: 3vh;
+  }
+
+  .maint{
+    display: flex;
+    /* background:  transparent;
+    backdrop-filter:blur(40px); */
+    width: 60%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.maint-id {
+  position: absolute;
+  top: 120px; 
+  left: 500px;
+}
+td {
+  max-width: 500px;
+  overflow-x: hidden
+
+}
